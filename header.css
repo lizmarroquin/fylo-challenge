@@ -1,0 +1,17 @@
+.header {
+  font-family: 'Raleway', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: end;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: hsl(243, 87%, 12%);
+  
+}
+
+.logo {
+  width: 100px;
+}
