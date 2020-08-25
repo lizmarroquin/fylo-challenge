@@ -6,10 +6,15 @@
   align-items: center;
 }
 
+@media (min-width: 1024px) {
+  .header {
+    width: 900px;
+  }
+}
+
 .link {
   text-decoration: none;
-  color: hsl(243, 87%, 12%);
-  
+  color: var(--very-dark-blue);
 }
 
 .logo {
