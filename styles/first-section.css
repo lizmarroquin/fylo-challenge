@@ -4,8 +4,21 @@
   place-items: center;
 }
 
+@media (min-width: 1024px) {
+  .first-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .first-section .main-image {
   width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .first-section .content {
+    grid-column: 1;
+    grid-row: 1;
+  }  
 }
 
 .first-section .heading {
