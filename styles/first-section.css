@@ -1,0 +1,42 @@
+.first-section {
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.first-section .main-image {
+  width: 100%;
+}
+
+.first-section .heading {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  width: 350px;
+}
+
+.first-section .paragraph {
+  text-align: center;
+  width: 350px;
+}
+
+.first-section .form {
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.first-section .form .input {
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid var(--very-dark-blue);
+  padding: 0 15px;
+}
+
+.first-section .form .button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  background-color: var(--bright-blue);
+  border: none;
+  border-radius: 4px;
+  height: 35px;
+  color: var(--white);
+}

@@ -1,0 +1,22 @@
+.header {
+  font-family: 'Raleway', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: end;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    width: 900px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: var(--very-dark-blue);
+}
+
+.logo {
+  width: 100px;
+}
