@@ -53,6 +53,10 @@
   margin: 20px 0 0 0;
 }
 
+.testimonial-card {
+  box-shadow: 0px 0 20px -15px var(--black);
+}
+
 .testimonial-card .paragraph3 {
   text-align: justify;
 }

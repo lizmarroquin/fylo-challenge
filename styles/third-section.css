@@ -1,0 +1,15 @@
+.third-section {
+  background: var(--desaturated-blue);
+  color: var(--white);
+  display: grid;
+  place-items: center;
+}
+
+.third-section .paragraph {
+  text-align: center;
+}
+
+.third-section .form {
+  display: grid;
+  place-items: center;
+}
